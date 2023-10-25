@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "serve": "serve .next/analyze",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "faker": "^4.1.0",
+    "lodash": "4.17.21",
+    "next": "latest",
+    "next-compose-plugins": "^2.2.1",
+    "next-plausible": "^3.11.2",
+    "next-translate": "^2.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.5.3",
+    "serve": "^11.3.2"
+  }
+}

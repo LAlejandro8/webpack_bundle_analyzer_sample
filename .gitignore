@@ -1,0 +1,5 @@
+/node_modules
+/nvm
+/yarn.lock
+/.next
+/next.config.js
